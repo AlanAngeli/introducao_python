@@ -7,8 +7,8 @@ Podem interagir entre eles
 from aula7_3 import Televisao
 from aula7_calculadora import Calculadora
 
-if__name__=='__main__':
-    televisao = Televisao
+if __name__=='__main__':
+    televisao = Televisao()
     print(televisao.ligada)
     televisao.power()
     print(televisao.ligada)
